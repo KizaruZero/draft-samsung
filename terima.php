@@ -46,14 +46,14 @@ function upload()
   return $namaFileBaru;
 }
 
-if (isset ($_POST["tambah"])) {
+if (isset($_POST["tambah"])) {
   $merk = $_POST["merk"];
   $nama = $_POST["nama"];
   $warna = $_POST["warna"];
   $harga = $_POST["harga"];
   $rom = $_POST["rom"];
   $layar = $_POST["layar"];
-  $fitur = isset ($_POST['fitur']) ? $_POST['fitur'] : "-";
+  $fitur = isset($_POST['fitur']) ? $_POST['fitur'] : "-";
   $ram = $_POST["ram"];
   $gambar = upload();
   $spek = $_POST["spek"];
@@ -91,34 +91,7 @@ if (isset ($_POST["tambah"])) {
 
 <body>
   <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg bg-light fw-normal fixed-top">
-    <div class="container">
-      <a class="navbar-brand fw-semibold" href="#">KIZARU<span class="fst-italic">STORE</span></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto fw-normal">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="produk.html">Products</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="aksesoris.html">Accessories</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Contacts</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="admin.php">Admin</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
+  <?php include 'navbar.php' ?>
   <!-- Navbar Ends -->
   <section class="hasil">
     <div class="container">
