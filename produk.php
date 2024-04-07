@@ -435,73 +435,75 @@
               </div>
             </div>
           </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+            <div class="card rounded-5 border-0">
+              <img src="img/a series/a34.jpg" class=" card-img-top rounded-5" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Galaxy A34 5G
+                </h5>
+                <p>
+                  Awesome Silver </p>
+                <p class="card-text fw-semibold"> Rp 4.999.000
+                </p>
+                <a href="transaksi.php?id=<?= $typea["id"]; ?>" class="btn btn-dark rounded-5">Buy
+                  Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+            <div class="card rounded-5 border-0">
+              <img src="img/a series/a54.jpg" class=" card-img-top rounded-5" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Galaxy A54 5G
+                </h5>
+                <p>
+                  Awesome Violet
+                </p>
+                <p class="card-text fw-semibold"> Rp 6.399.000
+                </p>
+                <a href="transaksi.php?id=<?= $typea["id"]; ?>" class="btn btn-dark rounded-5">Buy
+                  Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+            <div class="card rounded-5 border-0">
+              <img src="img/a series/a74.jpg" class=" card-img-top rounded-5" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Galaxy A74 5G
+                </h5>
+                <p>
+                  Awesome Mint
+                </p>
+                <p class="card-text fw-semibold"> Rp 7.799.000
+                </p>
+                <a href="transaksi.php?id=<?= $typea["id"]; ?>" class="btn btn-dark rounded-5">Buy
+                  Now</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
+            <div class="card rounded-5 border-0">
+              <img src="img/a series/a54lime.jpg" class=" card-img-top rounded-5" alt="..." />
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Galaxy A54 5G
+                </h5>
+                <p>
+                  Awesome Lime </p>
+                <p class="card-text fw-semibold"> Rp 6.399.000
+                </p>
+                <a href="transaksi.php?id=<?= $typea["id"]; ?>" class="btn btn-dark rounded-5">Buy
+                  Now</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
     <!-- Galaxy A Ends -->
   </div>
   <!-- Footer -->
-  <footer class="footer bg-dark text-white">
-    <div class="container">
-      <div class="row d-flex justify-content-center">
-        <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
-          <h5 class="">KIZARUSTORE</h5>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            quos
-          </p>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
-          <h5 class="">Produk</h5>
-          <ul class="list-unstyled">
-            <li>
-              <a href="#" class="text-light">Smartphone</a>
-            </li>
-            <li>
-              <a href="#" class="text-light">Tablet</a>
-            </li>
-            <li>
-              <a href="#" class="text-light">Smartwatch</a>
-            </li>
-            <li>
-              <a href="#" class="text-light">TV & AV</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
-          <h5 class="">Layanan</h5>
-          <ul class="list-unstyled">
-            <li>
-              <a href="#" class="text-light">Pengiriman</a>
-            </li>
-            <li>
-              <a href="#" class="text-light">Pembayaran</a>
-            </li>
-            <li>
-              <a href="#" class="text-light">Pengembalian</a>
-            </li>
-            <li>
-              <a href="#" class="text-light">Bantuan</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-lg-3 col-md-6 col-sm-12 mt-5">
-          <h5 class="">Kontak Kami</h5>
-          <ul class="list-unstyled">
-            <li>
-              <a href="#" class="text-light">Facebook</a>
-            </li>
-            <li>
-              <a href="#" class="text-light">Instagram</a>
-            </li>
-            <li>
-              <a href="#" class="text-light">Twitter</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </footer>
+  <?php include 'footer.php' ?>
   <!-- Script -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
