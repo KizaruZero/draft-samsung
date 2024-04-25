@@ -95,7 +95,7 @@
     </section>
     <!-- Jumbotron Ends -->
     <!-- Popular Products -->
-    <section class="popular-products mt-5">
+    <!-- <section class="popular-products mt-5">
       <div class="container">
         <div class="judul">
           <h4 class="fw-semibold">POPULAR PRODUCTS</h4>
@@ -139,7 +139,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
     <!-- Popular Products Ends-->
     <!-- Produk Baru -->
     <section class="produk-baru">
@@ -290,7 +290,7 @@
                 <h5 class="card-title fw-bold"></h5>
                 <p></p>
                 <p class="card-text fw-semibold"></p>
-                <a href="#" class="btn btn-dark rounded-5 mx-5 mb-3">Lihat Produk</a>
+                <a href="produk.php" class="btn btn-dark rounded-5 mx-5 mb-3">Lihat Produk</a>
               </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
@@ -301,7 +301,7 @@
                 <h5 class="card-title fw-bold"></h5>
                 <p></p>
                 <p class="card-text fw-semibold"></p>
-                <a href="#" class="btn btn-dark rounded-5 mx-5 mb-3">Lihat Produk</a>
+                <a href="produk.php" class="btn btn-dark rounded-5 mx-5 mb-3">Lihat Produk</a>
               </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
@@ -312,7 +312,7 @@
                 <h5 class="card-title fw-bold"></h5>
                 <p></p>
                 <p class="card-text fw-semibold"></p>
-                <a href="#" class="btn btn-dark rounded-5 mx-5 mb-3">Lihat Produk</a>
+                <a href="produk.php" class="btn btn-dark rounded-5 mx-5 mb-3">Lihat Produk</a>
               </div>
             </div>
             <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
@@ -323,7 +323,7 @@
                 <h5 class="card-title fw-bold"></h5>
                 <p></p>
                 <p class="card-text fw-semibold"></p>
-                <a href="#" class="btn btn-dark rounded-5 mx-5 mb-3">Lihat Produk</a>
+                <a href="produk.php" class="btn btn-dark rounded-5 mx-5 mb-3">Lihat Produk</a>
               </div>
             </div>
           </div>

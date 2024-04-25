@@ -192,50 +192,55 @@
         <!-- Hp -->
         <div class="row text-center">
           <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
-            <div class="card rounded-5 border-0 ">
+            <div class="card rounded-5 border-0">
               <div class="card-body d-flex justify-content-center">
                 <img src="img/z series/foldthom.png" class="card-img-top rounded-5 custom-img" alt="..." />
               </div>
               <h5 class="card-title fw-bold">Galaxy S24 Ultra Thom</h5>
               <p>Thom Browne</p>
               <p class="card-text fw-semibold">Rp 25.999.000</p>
-              <a href="#" class="btn btn-dark rounded-5 mx-5 mb-3">Buy Now</a>
+              <a href="kredit.php?image=img/z%20series/foldthom.png&title=Galaxy%20S24%20Ultra%20Thom&price=25999000"
+                class="btn btn-dark rounded-5 mx-5 mb-3">Buy Now</a>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
-            <div class="card rounded-5 border-0 ">
+            <div class="card rounded-5 border-0">
               <div class="card-body d-flex justify-content-center">
                 <img src="img/s series/s24black.png" class="card-img-top rounded-5 custom-img" alt="..." />
               </div>
               <h5 class="card-title fw-bold">Galaxy S24 Ultra</h5>
               <p>Titanium Black</p>
               <p class="card-text fw-semibold">Rp 23.999.000</p>
-              <a href="#" class="btn btn-dark rounded-5 mx-5 mb-3">Buy Now</a>
+              <a href="kredit.php?image=img/s%20series/s24black.png&title=Galaxy%20S24%20Ultra&price=23999000"
+                class="btn btn-dark rounded-5 mx-5 mb-3">Buy Now</a>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
-            <div class="card rounded-5 border-0 ">
+            <div class="card rounded-5 border-0">
               <div class="card-body d-flex justify-content-center">
                 <img src="img/s series/s24violet.png" class="card-img-top rounded-5 custom-img" alt="..." />
               </div>
               <h5 class="card-title fw-bold">Galaxy S24 Plus</h5>
               <p>Violet</p>
               <p class="card-text fw-semibold">Rp 25.999.000</p>
-              <a href="#" class="btn btn-dark rounded-5 mx-5 mb-3">Buy Now</a>
+              <a href="kredit.php?image=img/s%20series/s24violet.png&title=Galaxy%20S24%20Plus&price=25999000"
+                class="btn btn-dark rounded-5 mx-5 mb-3">Buy Now</a>
             </div>
           </div>
           <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
-            <div class="card rounded-5 border-0 ">
+            <div class="card rounded-5 border-0">
               <div class="card-body d-flex justify-content-center">
                 <img src="img/s series/s24violet.png" class="card-img-top rounded-5 custom-img" alt="..." />
               </div>
               <h5 class="card-title fw-bold">Galaxy S24 Plus</h5>
               <p>Violet</p>
               <p class="card-text fw-semibold">Rp 25.999.000</p>
-              <a href="#" class="btn btn-dark rounded-5 mx-5 mb-3">Buy Now</a>
+              <a href="kredit.php?image=img/s%20series/s24violet.png&title=Galaxy%20S24%20Plus&price=25999000"
+                class="btn btn-dark rounded-5 mx-5 mb-3">Buy Now</a>
             </div>
           </div>
         </div>
+
 
         <!-- HP Ends -->
       </div>
@@ -307,65 +312,52 @@
             <!-- HP -->
             <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
               <div class="card rounded-5 border-0">
-                <img src="img/z series/fliphitam.jpg" class=" card-img-top rounded-5" alt="..." />
+                <img src="img/z series/fliphitam.jpg" class="card-img-top rounded-5" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title fw-bold">Galaxy Z Flip5
-                  </h5>
-                  <p>
-                    Titanium Black
-                  </p>
-                  <p class="card-text fw-semibold"> Rp 23.999.999
-                  </p>
-                  <a href="transaksi.php?id=<?= $typea["id"]; ?>" class="btn btn-dark rounded-5">Buy
-                    Now</a>
+                  <h5 class="card-title fw-bold">Galaxy Z Flip5</h5>
+                  <p>Titanium Black</p>
+                  <p class="card-text fw-semibold">Rp 23.999.999</p>
+                  <a href="kredit.php?image=img/z%20series/fliphitam.jpg&title=Galaxy%20Z%20Flip5&price=23999999"
+                    class="btn btn-dark rounded-5">Buy Now</a>
                 </div>
               </div>
             </div>
+
             <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
               <div class="card rounded-5 border-0">
-                <img src="img/z series/foldthom.jpg" class=" card-img-top rounded-5" alt="..." />
+                <img src="img/z series/foldthom.jpg" class="card-img-top rounded-5" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title fw-bold">Galaxy Z Fold5 Thom
-                  </h5>
-                  <p>
-                    Thom Browne
-                  </p>
-                  <p class="card-text fw-semibold"> Rp 27.999.000
-                  </p>
-                  <a href="transaksi.php?id=<?= $typea["id"]; ?>" class="btn btn-dark rounded-5">Buy
-                    Now</a>
+                  <h5 class="card-title fw-bold">Galaxy Z Fold5 Thom</h5>
+                  <p>Thom Browne</p>
+                  <p class="card-text fw-semibold">Rp 27.999.000</p>
+                  <a href="kredit.php?image=img/z%20series/foldthom.jpg&title=Galaxy%20Z%20Fold5%20Thom&price=27999000"
+                    class="btn btn-dark rounded-5">Buy Now</a>
                 </div>
               </div>
             </div>
+
             <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
               <div class="card rounded-5 border-0">
-                <img src="img/z series/flipink.jpg" class=" card-img-top rounded-5" alt="..." />
+                <img src="img/z series/flipink.jpg" class="card-img-top rounded-5" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title fw-bold">Galaxy Z Flip5
-                  </h5>
-                  <p>
-                    Lavender
-                  </p>
-                  <p class="card-text fw-semibold"> Rp 17.999.000
-                  </p>
-                  <a href="transaksi.php?id=<?= $typea["id"]; ?>" class="btn btn-dark rounded-5">Buy
-                    Now</a>
+                  <h5 class="card-title fw-bold">Galaxy Z Flip5</h5>
+                  <p>Lavender</p>
+                  <p class="card-text fw-semibold">Rp 17.999.000</p>
+                  <a href="kredit.php?image=img/z%20series/flipink.jpg&title=Galaxy%20Z%20Flip5&price=17999000"
+                    class="btn btn-dark rounded-5">Buy Now</a>
                 </div>
               </div>
             </div>
+
             <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
               <div class="card rounded-5 border-0">
-                <img src="img/z series/fold5.jpg" class=" card-img-top rounded-5" alt="..." />
+                <img src="img/z series/fold5.jpg" class="card-img-top rounded-5" alt="..." />
                 <div class="card-body">
-                  <h5 class="card-title fw-bold">Galaxy Z Fold5 Thom
-                  </h5>
-                  <p>
-                    Thom Browne
-                  </p>
-                  <p class="card-text fw-semibold"> Rp 27.999.000
-                  </p>
-                  <a href="transaksi.php?id=<?= $typea["id"]; ?>" class="btn btn-dark rounded-5">Buy
-                    Now</a>
+                  <h5 class="card-title fw-bold">Galaxy Z Fold5 Thom</h5>
+                  <p>Thom Browne</p>
+                  <p class="card-text fw-semibold">Rp 27.999.000</p>
+                  <a href="kredit.php?image=img/z%20series/fold5.jpg&title=Galaxy%20Z%20Fold5%20Thom&price=27999000"
+                    class="btn btn-dark rounded-5">Buy Now</a>
                 </div>
               </div>
             </div>
@@ -435,65 +427,55 @@
               </div>
             </div>
           </div>
+          <!-- Hp -->
           <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
             <div class="card rounded-5 border-0">
-              <img src="img/a series/a34.jpg" class=" card-img-top rounded-5" alt="..." />
+              <img src="img/a series/a34.jpg" class="card-img-top rounded-5" alt="..." />
               <div class="card-body">
-                <h5 class="card-title fw-bold">Galaxy A34 5G
-                </h5>
-                <p>
-                  Awesome Silver </p>
-                <p class="card-text fw-semibold"> Rp 4.999.000
-                </p>
-                <a href="transaksi.php?id=<?= $typea["id"]; ?>" class="btn btn-dark rounded-5">Buy
-                  Now</a>
+                <h5 class="card-title fw-bold">Galaxy A34 5G</h5>
+                <p>Awesome Silver</p>
+                <p class="card-text fw-semibold">Rp 4.999.000</p>
+                <a href="kredit.php?image=img/a%20series/a34.jpg&title=Galaxy%20A34%205G&price=4999000"
+                  class="btn btn-dark rounded-5">Buy Now</a>
               </div>
             </div>
           </div>
+
           <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
             <div class="card rounded-5 border-0">
-              <img src="img/a series/a54.jpg" class=" card-img-top rounded-5" alt="..." />
+              <img src="img/a series/a54.jpg" class="card-img-top rounded-5" alt="..." />
               <div class="card-body">
-                <h5 class="card-title fw-bold">Galaxy A54 5G
-                </h5>
-                <p>
-                  Awesome Violet
-                </p>
-                <p class="card-text fw-semibold"> Rp 6.399.000
-                </p>
-                <a href="transaksi.php?id=<?= $typea["id"]; ?>" class="btn btn-dark rounded-5">Buy
-                  Now</a>
+                <h5 class="card-title fw-bold">Galaxy A54 5G</h5>
+                <p>Awesome Violet</p>
+                <p class="card-text fw-semibold">Rp 6.399.000</p>
+                <a href="kredit.php?image=img/a%20series/a54.jpg&title=Galaxy%20A54%205G&price=6399000"
+                  class="btn btn-dark rounded-5">Buy Now</a>
               </div>
             </div>
           </div>
+
           <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
             <div class="card rounded-5 border-0">
-              <img src="img/a series/a74.jpg" class=" card-img-top rounded-5" alt="..." />
+              <img src="img/a series/a74.jpg" class="card-img-top rounded-5" alt="..." />
               <div class="card-body">
-                <h5 class="card-title fw-bold">Galaxy A74 5G
-                </h5>
-                <p>
-                  Awesome Mint
-                </p>
-                <p class="card-text fw-semibold"> Rp 7.799.000
-                </p>
-                <a href="transaksi.php?id=<?= $typea["id"]; ?>" class="btn btn-dark rounded-5">Buy
-                  Now</a>
+                <h5 class="card-title fw-bold">Galaxy A74 5G</h5>
+                <p>Awesome Mint</p>
+                <p class="card-text fw-semibold">Rp 7.799.000</p>
+                <a href="kredit.php?image=img/a%20series/a74.jpg&title=Galaxy%20A74%205G&price=7799000"
+                  class="btn btn-dark rounded-5">Buy Now</a>
               </div>
             </div>
           </div>
+
           <div class="col-lg-3 col-md-6 col-sm-12 mb-3">
             <div class="card rounded-5 border-0">
-              <img src="img/a series/a54lime.jpg" class=" card-img-top rounded-5" alt="..." />
+              <img src="img/a series/a54lime.jpg" class="card-img-top rounded-5" alt="..." />
               <div class="card-body">
-                <h5 class="card-title fw-bold">Galaxy A54 5G
-                </h5>
-                <p>
-                  Awesome Lime </p>
-                <p class="card-text fw-semibold"> Rp 6.399.000
-                </p>
-                <a href="transaksi.php?id=<?= $typea["id"]; ?>" class="btn btn-dark rounded-5">Buy
-                  Now</a>
+                <h5 class="card-title fw-bold">Galaxy A54 5G</h5>
+                <p>Awesome Lime</p>
+                <p class="card-text fw-semibold">Rp 6.399.000</p>
+                <a href="kredit.php?image=img/a%20series/a54lime.jpg&title=Galaxy%20A54%205G&price=6399000"
+                  class="btn btn-dark rounded-5">Buy Now</a>
               </div>
             </div>
           </div>
